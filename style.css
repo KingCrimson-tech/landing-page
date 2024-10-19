@@ -69,3 +69,31 @@ button {
     border: 0;
     border-radius: 25px;
 }
+
+.card {
+    border: 8px solid #3882F6;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.info-text {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.card-display {
+    flex-wrap: wrap;
+    max-width: 200px;
+}
+
