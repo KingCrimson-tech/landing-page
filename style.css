@@ -139,9 +139,11 @@ button {
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: #F9FAF8;
     height: 52px;
     background-color: #1F2937;
-    text-align: center;
     padding: 50px;
 }
