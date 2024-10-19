@@ -90,6 +90,7 @@ button {
     display: flex;
     justify-content: center;
     gap: 52px;
+    margin-bottom: 60px;
 }
 
 .card-display {
@@ -97,3 +98,50 @@ button {
     max-width: 200px;
 }
 
+.quote {
+    background-color: #E5E7EB;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 48px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.action {
+    background-color: #3882F6;
+    padding: 16px;
+    margin: 200px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-text {
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.action-sub {
+    color: #E5E7EB;
+}
+
+.action-btn {
+    border: 2px solid white;
+}
+
+.footer {
+    color: #F9FAF8;
+    height: 52px;
+    background-color: #1F2937;
+    text-align: center;
+    padding: 50px;
+}
